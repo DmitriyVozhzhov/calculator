@@ -1,0 +1,28 @@
+.container {
+	width: 100%;
+	height: auto;
+}
+.calculator {
+	max-width: 300px;
+	max-height: 400px;
+	display: flex;
+	flex-direction: column;
+  margin: 0 auto;
+	text-align: center;
+	.calculator__header {
+		background-color: cornflowerblue;
+		border-radius: 5px;
+	}
+	.calculator__input {
+		background-color: bisque;
+	}
+	.calculator__screen {
+		background-color: white;
+		border-radius: 5px;
+	}
+	.calculator__buttons {
+		background-color: bisque;
+		border-radius: 5px;
+	}
+
+}

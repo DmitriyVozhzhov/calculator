@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>calculator</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="calculator">
+			<div class="calculator__header">
+				<h3>Мой канкулятар</h3>
+			</div>
+			
+			<div class="calculator__input">
+				<h3>Введите значения для расчета</h3>
+				<input type="text" name="x" id="numX" placeholder="first number (x): " >
+				<input type="text" name="y" id="numY" placeholder="second number (y): ">
+			</div>
+			<div class="calculator__screen">
+				<h3>Результат вычислений</h3>
+				<div class="calculator__result" id="output"></div>
+			</div>
+			<div class="calculator__buttons">
+				<button class="calculator__button" onclick="plus()">+</button>
+				<button class="calculator__button" onclick="minus()">-</button>
+				<button class="calculator__button" onclick="division()">/</button>
+				<button class="calculator__button" onclick="multiply()">*</button>
+				<button class="calculator__button" onclick="pow()">pow</button>
+				<button type="reset" id="reset" onclick="reset()" >reset</button>
+			</div>
+
+		
+		
+		</div>
+	</div>
+	<script src="./js/script.js"></script>
+</body>
+</html>
